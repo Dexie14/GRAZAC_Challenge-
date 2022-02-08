@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Dexie14/GRAZAC_Challenge-.git)
+- Solution URL: [https://github.com/Dexie14/GRAZAC_Challenge-.git](https://github.com/Dexie14/GRAZAC_Challenge-.git)
 
 ## My process
 
@@ -47,8 +47,8 @@ I strongly look forward to work more on css positioning, grid, icons, animations
 
 ### Useful resources
 
-- [Resource 1](https://www.w3schools.com/) - This helped me to see better ways of applying my codes. I really liked their system pattern.
-- [Resource 2](https://stackoverflow.com/) - This is an amazing site which helped me to find solutions to problems I faced in working out my code.
+- [w3schools](https://www.w3schools.com/) - This helped me to see better ways of applying my codes. I really liked their system pattern.
+- [stackoverflow](https://stackoverflow.com/) - This is an amazing site which helped me to find solutions to problems I faced in working out my code.
 
 ## Author
 
