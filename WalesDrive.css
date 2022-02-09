@@ -190,7 +190,6 @@
     text-align: center;
     background-color: #F9F3FF;
     margin: 100px auto 0px;
-    /* padding-bottom: 100px; */
     padding: 0px 100px 100px;
 }
 
@@ -439,4 +438,128 @@ font-family: var(--font-family);
     .foot{
         padding: 50px 20px 50px;
     }
+    }
+
+
+    @media (max-width: 375px){
+        body{
+            position: absolute;
+        }
+
+        .section_1 {
+            display: flex;
+            flex-direction: column;
+            margin: 0px auto;
+            width: 90%;
+            font-family: var(--font-family);
+        }
+
+        .title{
+            font-size: 40px;
+        }
+
+        .section1image {
+            width: 500px;
+            margin-left: -10px;
+        }
+
+        .section2{
+            text-align: center;
+            font-family: var(--font-family);
+            margin-top: 30px;
+        }
+
+        .section2icon_items {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            align-items: center;
+         }
+
+         .row{
+             margin-left: 15px;
+         }
+
+         .section4icons{
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            margin: 50px auto 0;
+            font-family: var(--font-family);
+         }
+
+         .section4icons p{ 
+            width: 80%;
+            margin-bottom: 20px;
+            font-size: 20px;
+
+        }
+
+        .section4icons img{
+            width: 15%;
+        }
+        
+
+        .iconsalone {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        .section5_text{
+            padding: 50px;
+            width: 100%;
+            
+      }
+
+      .section5_text h4{
+            margin-bottom: 10px;
+
+      }
+        .section5_text2 h4{
+            font-size: 30px;
+        }
+
+      .button{
+        padding: 15px 25px 15px;
+        border-radius: 6px;
+        border: 0.5px solid #200937;
+        font-size: 17px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        background-color: #200937;
+        color: white;
+    }
+
+    .section_3{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        background-color: #F9F3FF;
+        justify-content: center;
+        align-items: center;
+    }
+   
+   .section3{
+     margin-left: 0px;
+     margin-top: 50px;
+   }
+   
+   .section3_text {
+       font-family: var(--font-family);
+       margin-left: 0px;
+   }
+   
+   .section_3 div h4{
+       margin-bottom: 10px;
+   }
+
+    .section_3 div p{
+       width: 70%;
+       margin-bottom: 10px;
+   }
+
+
+
     }
