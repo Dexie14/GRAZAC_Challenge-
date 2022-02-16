@@ -75,23 +75,27 @@
 }
 
 .section_1_part2 {
-    display: flex;
+    position: relative;
+    border: 1px solid red;
 }
 
 .section1image {
     width: 650px;
     margin-left: 50px;
-    position: relative;
+    /* position: relative; */
 }
 
 .circle {
+    /* border: 1px solid blue;
+    padding: 40px; */
     border-radius: 50%;
     background-color: #200937;
     height: 140px;
-    width: 140px;
+    width: 140px; 
     position: absolute;
-    top: 80px;
-    left: 1190px;
+    top: 0px;
+    left: 0px;
+    z-index: 50;
 }
 
 
@@ -271,13 +275,13 @@ font-family: var(--font-family);
 
 @media (max-width: 1440px) {
     .circle {
-        border-radius: 50%;
+        /* border-radius: 50%;
         background-color: #200937;
         height: 140px;
         width: 140px;
         position: absolute;
-        top: 80px;
-        left: 1280px;
+        top: 0px;
+        left: 0px; */
     }
     .svg {
         display: none;
@@ -287,13 +291,13 @@ font-family: var(--font-family);
 
 @media (max-width: 1366px) {
     .circle {
-        border-radius: 50%;
+        /* border-radius: 50%;
         background-color: #200937;
         height: 140px;
         width: 140px;
         position: absolute;
         top: 80px;
-        left: 1190px;
+        left: 1190px; */
     }
 }
 
@@ -301,14 +305,14 @@ font-family: var(--font-family);
 
 @media (max-width: 1200px) {
     .circle {
-        border-radius: 50%;
+        /* border-radius: 50%;
         background-color: #200937;
         height: 140px;
         width: 140px;
         position: absolute;
         top: 80px;
         left: 1190px;
-        display: none;
+        display: none; */
     }
 
     .svg {
